@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+    .carousel {
+        display: none;
+    }
+    .herof {
+        width: 100% !important;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+    .sm{
+        display: block;
+    }
+    .bg{
+        display: none;
+    }
+    .login {
+        background: #6D5298;
+        margin: 0;
+        padding: 0;
+    }
+    .register {
+        background: #43CC8A;
+        margin: 0;
+        padding: 0;
+    }    
+}

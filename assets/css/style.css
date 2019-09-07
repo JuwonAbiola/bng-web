@@ -1,0 +1,238 @@
+.herof {
+    background-image: url(../img/herof.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register {
+    background: #43CC8A;
+    margin: -1rem 0;
+    padding: 1rem 0;
+}
+
+.login {
+    background: #6D5298;
+    margin: -1rem 0;
+    padding: 1rem 0;
+}
+
+.login .nav-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.register .nav-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.h-list {
+    /* font-family: Nunito Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 109.6%;
+    letter-spacing: 0.03em;
+    color: #526C98;
+}
+
+.h-listHead {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: flex-end;
+    letter-spacing: 0.02em;
+    color: #6D5298
+}
+
+.h-listBottom {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 109.6%;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+.h-bottom {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: flex-end;
+    letter-spacing: 0.02em;
+    color: #37F097;
+}
+
+.bookit {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31.6px;
+    line-height: 47px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #43CC8A;
+}
+
+.welcome {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #6D5298;
+}
+
+.welcome-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #526C98;
+}
+
+.service {
+    background: #6D5298;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding: 5px;
+}
+
+.serv {
+    background: #300F51;
+    padding: 27px;
+}
+
+.card {
+    border-radius: 18px;
+    border-color: #300F51;
+}
+
+.card img {
+    border-radius: 18px 18px 0 0;
+}
+
+.card-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #6D5298;
+    text-align: center;
+}
+
+.card-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 109.6%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #526C98;
+}
+
+.g-btn {
+    background: linear-gradient(308.9deg, #37F097 29.37%, #57CFF5 122.8%);
+    border-radius: 20px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: 0 auto;
+}
+
+.g-btn:hover {
+    background: #fff;
+    color: #37F097;
+    border-color: #57CFF5;
+}
+
+.p-btn {
+    background: linear-gradient(148.47deg, #AF57D9 86.58%, #4351CC -4.29%);
+    border-radius: 20px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.p-btn:hover {
+    background: #fff;
+    color: #AF57D9;
+    border-color: #4351CC;
+}
+
+.lower {
+    background: url(../img/lower-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgL {
+    text-align: center;
+    padding: 2%;
+}
+
+footer {
+    background-color: #526C98;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 109.6%;
+    align-items: center;
+    letter-spacing: 0.03em;
+    padding: 5px;
+    color: #fff;
+}
+
+footer img {
+    margin: 3px;
+}
+
+
+/*# sourceMappingURL=bootstrap.min.css.map */
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #37F097;
+}
+
+.nav-link.disabled {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: default
+}
+
+.sm{
+    display: none;
+}
+.bg{
+    display: block;
+}
